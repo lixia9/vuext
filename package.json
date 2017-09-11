@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Centralized State Management for Vue.js",
   "author": "lixiaolong",
-  "private": true,
+  "main": "/src/vuext.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
