@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <h1>name:{{this.$tpo.name}}in app.vue</h1>
     <router-view></router-view>
   </div>
 </template>

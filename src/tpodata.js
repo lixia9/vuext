@@ -1,12 +1,12 @@
-const tpodata={//公用数据
-	name:"lxl",
+const tpodata={//public data
+	name:"VUEXT",
 	ls:[1,2,3],
 	getName(name){
 		this.name=name
 	}
 }
-tpodata.head={ //头部使用数据
-	name:"李晓龙"
+tpodata.head={ //part data
+	name:"lixiaolong"
 }
 
 export default tpodata;
