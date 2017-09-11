@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import {tpostore,vuext} from "./vuext";
+import {tpostore,vuext} from "vuext";
 import tpodata from "./tpodata";
 Vue.config.productionTip = false
 

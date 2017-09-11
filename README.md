@@ -1,6 +1,8 @@
 # vuext
 
 > Centralized State Management for Vue.js
+> 
+>仅有22行代码 压缩之后1K 实现VUE状态管理，实现异步同步调用
 
 ## Build Setup
 
@@ -34,18 +36,23 @@ npm run build --report
             })
     4. {{this.$tpo.name}}
     5. change this.$tpo.name="XXX"
+    6. function used  this.$tpo.getName()
 
 ### tpodata.js
     const tpodata={//public data
 	name:"VUEXT",
 	ls:[1,2,3],
 	getName(name){
+		//异步的实现
+		//成功之后回调，commit name数据
 		this.name=name
-            }
         }
-        tpodata.head={ //part data
-            name:"lixiaolong"
-        }
+    }
+    tpodata.head={ //part data
+        name:"lixiaolong"
+    }
+
+    export default tpodata;
 
 export default tpodata;
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
